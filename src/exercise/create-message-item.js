@@ -12,7 +12,6 @@
 export default function createMessageItem(newMessage) {
 
 var data= document.createElement('LI');
-data.classList.add('message-list');
 data.innerHTML= `<span class="message-item__username">${newMessage.username} </span><span class="message-item"> ${newMessage.message}</span>`;
 return data;
 }
