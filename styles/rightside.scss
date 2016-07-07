@@ -1,0 +1,30 @@
+.tw-app__right{
+  width: 30%;
+  height: 100vh;
+  min-width: 20rem;
+  background: #efeef1;
+
+  &--container__content{
+    padding: 1rem 1.5rem;
+
+    h2{
+      padding: 0.4rem 0;
+      font-size: 1.3rem;
+    }
+    p {
+      font-size: 0.9rem;
+    }
+  }
+  .tw-app__right-item{
+    padding-bottom: 1.5rem;
+
+    span{
+    background: white;
+    font-size: 0.8rem;
+    font-weight: 200;
+    padding: 0.5rem 1rem;
+    border-left: 0.3rem $brandpurple solid;
+
+  }
+}
+}
