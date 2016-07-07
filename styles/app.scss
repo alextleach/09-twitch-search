@@ -1,6 +1,18 @@
 // @import 'yoga';
 // @import 'normalize';
 
-// $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
-// @import 'font-awesome';
+$brandpurple: #6441a4;
+$deeppurple: #201c2b;
+$dark: #17141f;
+$gray: #86818f;
+$lineheight: 0.3rem;
+$gutter: 1rem;
+$fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
+
+@import 'font-awesome';
+@import 'leftside';
+@import 'gamelist';
+@import 'rightside';
 @import 'box-sizing';
+@import 'reset';
+@import 'twitch';
